@@ -22,7 +22,6 @@ h1 {
   font-weight: 700;
 }
 
-
 nav {
   position: fixed;
   top: 0;
@@ -34,7 +33,7 @@ nav {
 
   font-family: "Young Serif";
   font-size: 24px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,4 +50,8 @@ main {
   z-index: 1;
   background-color: #ffffff;
   min-height: 100vh;
+}
+
+main.open {
+  transform: translate(240px, 0);
 }
